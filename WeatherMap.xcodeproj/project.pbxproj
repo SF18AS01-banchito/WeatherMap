@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		960CBEAD223963D000D6642C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960CBEAC223963D000D6642C /* AppDelegate.swift */; };
-		960CBEAF223963D000D6642C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960CBEAE223963D000D6642C /* ViewController.swift */; };
 		960CBEB2223963D000D6642C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960CBEB0223963D000D6642C /* Main.storyboard */; };
 		960CBEB4223963D200D6642C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960CBEB3223963D200D6642C /* Assets.xcassets */; };
 		960CBEB7223963D200D6642C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960CBEB5223963D200D6642C /* LaunchScreen.storyboard */; };
+		960CBEBF223963FB00D6642C /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960CBEBE223963FB00D6642C /* Day.swift */; };
+		960CBEC12239649C00D6642C /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960CBEC02239649C00D6642C /* WeatherTableViewController.swift */; };
+		960CBEC32239659E00D6642C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960CBEC22239659E00D6642C /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		960CBEA9223963D000D6642C /* WeatherMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		960CBEAC223963D000D6642C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		960CBEAE223963D000D6642C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		960CBEB1223963D000D6642C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		960CBEB3223963D200D6642C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		960CBEB6223963D200D6642C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		960CBEB8223963D200D6642C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960CBEBE223963FB00D6642C /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		960CBEC02239649C00D6642C /* WeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
+		960CBEC22239659E00D6642C /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				960CBEAC223963D000D6642C /* AppDelegate.swift */,
-				960CBEAE223963D000D6642C /* ViewController.swift */,
+				960CBEC02239649C00D6642C /* WeatherTableViewController.swift */,
+				960CBEBE223963FB00D6642C /* Day.swift */,
+				960CBEC22239659E00D6642C /* StringExtension.swift */,
 				960CBEB0223963D000D6642C /* Main.storyboard */,
 				960CBEB3223963D200D6642C /* Assets.xcassets */,
 				960CBEB5223963D200D6642C /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				960CBEAF223963D000D6642C /* ViewController.swift in Sources */,
+				960CBEC32239659E00D6642C /* StringExtension.swift in Sources */,
 				960CBEAD223963D000D6642C /* AppDelegate.swift in Sources */,
+				960CBEC12239649C00D6642C /* WeatherTableViewController.swift in Sources */,
+				960CBEBF223963FB00D6642C /* Day.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
